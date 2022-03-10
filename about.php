@@ -1,19 +1,3 @@
-
-<?php
-require 'conn/dbconnect.php';
-
-if(empty($_SESSION['un']))
-
-{
-		
-		
-		$sql1="SELECT * FROM video";
-		
-		$rs1=mysqli_query($conn,$sql1);
-
-}
-?>
-
 <!doctype html>
 <html class="no-js" lang="">
 
@@ -149,6 +133,6 @@ if(empty($_SESSION['un']))
     <script src="assets/js/plugins.js "></script>
     <!-- main js -->
     <script src="assets/js/scripts.js "></script>
-	
+
 </body>
 </html>
